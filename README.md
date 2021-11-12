@@ -14,7 +14,7 @@ The commands using the word 'set' may have to be changed if not using Windows
 
 # To start, run these commands:
 
-Note: You will have to add images to the images folder:
+Note: You will have to create the images folder and add images to the images folder:
 static/images/
 
 Pipenv shell
