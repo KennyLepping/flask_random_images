@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-
 {% block content %}
 
 <div class="container">
@@ -11,8 +10,9 @@
     alt="{{image.id}}"
   />
   <p>
-    {{image_pillow_info.mode}} in {{image_pillow_info.format}} with width
-    {{image_pillow_info.width}} and height {{image_pillow_info.height}}.
+    {{current_image_pillow_info.mode}} in {{current_image_pillow_info.format}}
+    format with width {{current_image_pillow_info.width}} and height
+    {{current_image_pillow_info.height}}.
   </p>
   <a href="{{ url_for('index') }}" class="font-weight-bold d-block">
     Back to list of images
