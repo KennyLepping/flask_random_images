@@ -8,11 +8,12 @@ https://stackoverflow.com/questions/17309889/how-to-debug-a-flask-app
 
 If Pipenv is not installed run: pip install pipenv
 
+The commands using the word 'set' may have to be changed if not using Windows
+
 # To start, run these commands:
 
 Note: You will have to add images to the images folder:
 static/images/
-
 
 Pipenv shell
 
