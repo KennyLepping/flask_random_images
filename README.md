@@ -9,6 +9,10 @@ https://stackoverflow.com/questions/17309889/how-to-debug-a-flask-app
 
 To start, run these commands:
 
+Note: You will have to add static files:
+static/images/
+static/favicon.ico
+
 Pipenv shell
 pip install requirements.txt
 set FLASK_APP=hw4
