@@ -14,7 +14,9 @@ static/images/
 
 
 Pipenv shell
+
 pip install requirements.txt
+
 set FLASK_APP=hw4
 
 on Windows:
