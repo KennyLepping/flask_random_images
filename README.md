@@ -7,18 +7,15 @@ Setting to dev environment:
 https://stackoverflow.com/questions/17309889/how-to-debug-a-flask-app
 
 
-To start, run these commands:
+# To start, run these commands:
 
-Note: You will have to add static files:
+Note: You will have to add images to the images folder:
 static/images/
-static/favicon.ico
+
 
 Pipenv shell
 pip install requirements.txt
 set FLASK_APP=hw4
-
-Next part is explained here:
-https://flask.palletsprojects.com/en/2.0.x/quickstart/
 
 on Windows:
 set FLASK_ENV=development

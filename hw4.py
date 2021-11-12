@@ -5,6 +5,8 @@
 # Team Number:
 # Description:
 
+# You can delete the links they are just there to help you understand the code
+
 from random import shuffle, choice, sample
 
 from flask import Flask, render_template
@@ -19,18 +21,17 @@ app = Flask(__name__)
 bootstrap = Bootstrap(app)
 
 
-def select_random_items(lst):
-    shuffle(lst)  # Delete if not needed
+def select_random_items(list_to_randomize):
+    shuffle(list_to_randomize)  # Delete if not needed
 
-    # Long way:
-    # random_image_ids = []
-    # for i in range(3):
-    #     random_image_ids.append(choice(lst))
+    # https://stackoverflow.com/questions/6494508/how-do-you-pick-x-number-of-unique-numbers-from-a-list-in-python
+    # :3 is explained here: https://www.tutorialspoint.com/python3/python_lists.htm
+    random_image_ids = list_to_randomize[:3]
 
     # https://www.w3schools.com/python/ref_random_sample.asp
     # sample() returns a list of random items from a list
-    # Best Way:
-    random_image_ids = sample(image_info, 3)
+    # Other way to do this:
+    # random_image_ids = sample(image_info, 3)
 
     return random_image_ids
 
