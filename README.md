@@ -8,6 +8,8 @@ https://stackoverflow.com/questions/17309889/how-to-debug-a-flask-app
 
 If Pipenv is not installed run: pip install pipenv
 
+Are all images similar sizes?
+
 The commands using the word 'set' may have to be changed if not using Windows
 
 # To start, run these commands:
