@@ -45,7 +45,7 @@ def index():
 # https://appdividend.com/2019/11/16/how-to-find-element-in-list-in-python/
 @app.route('/picture/<string:image_id>')
 def image_page(image_id: str):
-    # Create a list of image ids
+    # Create a list of image ids to find index of current image object in image_info
     image_info_ids = [image_id['id'] for image_id in image_info]
 
     # Finds the index of the current image id
